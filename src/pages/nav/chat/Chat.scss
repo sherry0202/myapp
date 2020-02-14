@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    .msg{
+        width: 300px;
+        height: 270px;
+        background: #fff;
+        padding: 20px;
+        font-size: 16px;
+        text-align: center;
+        .head-img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        .counselor{
+            padding: 15px 0;
+            .name{
+                color:#FFA000;
+                font-weight: bold;
+            }
+        }
+        .chat{
+            border:none;
+            background: #FFA000;
+            margin-top: 20px;
+            color:#fff;
+            padding:10px 20px;
+            border-radius: 6px;
+        }
+    }
+}

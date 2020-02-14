@@ -1,0 +1,38 @@
+#left-box{
+    .select-title{
+        padding:10px 0;
+        color:#FFA000;
+        font-size: 18px;
+    }
+    position: fixed;
+    padding-left: 10px;
+    left:0;
+    width:90%;
+    height: 100%;
+    
+    .finger{
+        margin:10px 0;
+        font-size: 16px;
+    }
+    .city-list{
+        line-height: 2em;
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 10px;
+        padding:0 5px;
+    }
+}
+.right-box{
+    width: 18px;
+    position: fixed;
+    background-color:#e8e7e7;
+    text-align: center;
+    top:9%;
+    right:0;
+    .select{
+        margin:5px 2px;
+        overflow: hidden;
+        white-space: nowrap;
+
+    }
+}

@@ -1,0 +1,108 @@
+$basecolor:#FFA000;
+.home{
+    background: #F5F5F9;
+    .top{
+        background: $basecolor;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 10px;
+        .location{
+            color:#fff;
+            line-height: 50px;
+            .local-img{
+                width: 15px;
+                height: 20px;
+                padding: 10px 0 0 5px;
+            }
+        }
+        .search_box{
+            height: 36px;
+            border-radius: 18px;
+            background: #fff;
+            flex:1;
+            padding:0 10px;
+            display: flex;
+            align-items: center;
+            color:#888;
+            margin:0 10px;
+            .search-icon{
+                width: 20px;
+                height: 20px;
+                margin-right:10px;
+            }
+        }
+        .map-icon{
+            width: 25px;
+            height: 25px;
+        }
+        
+    }
+    .banner{
+        .am-wingblank-lg{
+            margin:0;
+        }
+    }
+    .menu{
+        background: #fff;
+    }
+    .encyclo{
+        margin-top: 10px;
+        background: #fff;
+        .encyclo-title{
+            color:$basecolor;
+            .tips{
+                color:rgb(97, 95, 95);
+                font-size: 12px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .known{
+        .known-box{
+            margin:0 15px 10px;
+            .known-icon{
+                width: 50px;
+                height: 50px;
+            }
+            .known-title{
+                color:#888;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+    }
+    .youlike{
+        background: #fff;
+        margin-top: 10px;
+        .product{
+            margin-bottom: 10px;
+            .house{
+                .house-img{
+                    width: 80px;
+                    height: 80px;
+                }
+                .details{
+                    margin-left: 10px;
+                    .house-title{
+                        font-size: 17px;
+                        color:#424040;
+                    }
+                    .adress,.size{
+                        margin:8px 0;
+                        font-size: 12px;
+                        color:#888;
+                        .range,.point{
+                            margin-left: 10px;
+                        }
+                    }
+                    
+                }
+            }
+            .house-price{
+                color:$basecolor;
+            }
+        }
+    }
+}

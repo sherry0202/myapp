@@ -1,0 +1,36 @@
+.history{
+    background: #fff;
+    padding-top: 10px;
+    height:100%;
+    .history-title{
+        color:#FFA000;
+    }
+    .product{
+        margin-bottom: 10px;
+        .house{
+            .house-img{
+                width: 80px;
+                height: 80px;
+            }
+            .details{
+                margin-left: 10px;
+                .house-title{
+                    font-size: 17px;
+                    color:#424040;
+                }
+                .adress,.size{
+                    margin:8px 0;
+                    font-size: 12px;
+                    color:#888;
+                    .range,.point{
+                        margin-left: 10px;
+                    }
+                }
+                
+            }
+        }
+        .house-price{
+            color:#FFA000;
+        }
+    }
+}

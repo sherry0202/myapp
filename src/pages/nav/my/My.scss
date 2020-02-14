@@ -1,0 +1,58 @@
+$base:#FFA000;
+
+.top{
+    height: 170px;
+    background: #ffab1e;
+    .top-msg{
+        padding-top: 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        color:#fff;
+        .log-title{
+            .log-reg{
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+        }
+        .top-img{
+            margin-right: 15px;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+        .set-icon{
+            width: 20px;
+            height: 20px;
+        }
+
+    }
+    .bot-msg{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        .bot-box{
+            color:#fff;
+            text-align: center;
+            .bot-name{
+                padding-top: 10px;
+            }
+            .bot-icon{
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
+        .border{
+            padding-right:40px;
+            border-right:1px solid #fff;
+
+        }
+    }
+}
+.func{
+    margin-top: 10px;
+    .am-list-content{
+        font-size: 14px !important;
+    }
+}
